@@ -220,11 +220,6 @@ ios sslpinning disable
 - Frida Documentation
 - OpenVPN Documentation
 
----
-
-# 📜 License
-
-This repository is intended for educational and authorized security testing purposes only.
 
 ---
 
