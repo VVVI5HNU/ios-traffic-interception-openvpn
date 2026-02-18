@@ -205,22 +205,4 @@ ios sslpinning disable
 
 ---
 
-# 🛡 Mitigation (For Developers)
-
-- Implement certificate transparency
-- Detect jailbroken devices
-- Use robust SSL pinning libraries
-- Apply runtime integrity checks
-
----
-
-# 📚 References
-
-- OWASP Mobile Security Testing Guide (MSTG)
-- Frida Documentation
-- OpenVPN Documentation
-
-
----
-
 ## ✅ End of Guide
