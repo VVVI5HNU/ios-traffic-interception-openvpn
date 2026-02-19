@@ -194,12 +194,14 @@ ios sslpinning disable
 - SSL pinning likely implemented
 - Use Frida or dynamic instrumentation
 
----
-
-# 💥 Use Cases
-
-- iOS Mobile Application VAPT
-- API Security Testing
+for frida
+connect phone to kali using ssh
+```
+ssh mobile@ip
+cd /usr/sbin/frida-server -l <ip of mobile>
+open new terminal in kali
+frida-ps -aH <ip of mobile>
+```
 - Runtime analysis
 - SSL Pinning assessment
 
