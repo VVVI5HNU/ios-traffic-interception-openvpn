@@ -110,7 +110,7 @@ Since traffic is now routed through Kali via VPN, we redirect it using `iptables
 ## Step 1 — Configure NAT Redirection
 
 ```bash
-sudo iptables -t nat -A PREROUTING -p tcp --dport 443 -j DNAT --to-destination <KaliLocalIP>
+sudo iptables -t nat -A PREROUTING -p tcp --dport 443 -j DNAT --to-destination <BurpsuiteIP>
 ```
 
 ---
